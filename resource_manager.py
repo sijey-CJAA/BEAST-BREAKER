@@ -21,7 +21,7 @@ class ResourceManager:
         self.load_wave_images()
 
     def load_wave_images(self):
-        for level in range(1, 3):
+        for level in range(1, 6):
             for wave in range(1, 5):
                 key = f"l{level}w{wave}"
                 image_path = f"images/waves/{key}.png"

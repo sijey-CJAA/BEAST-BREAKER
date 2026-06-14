@@ -213,7 +213,7 @@ class BeastBreaker:
         start_screen = Start(self.screen, self.settings)
         
         # Load and play the start screen music
-        start_music = "sounds/new_sounds/start_music.mp3"
+        start_music = "sounds/GAME_BG.mp3"  # fallback: start_music.mp3 missing from repo
         pygame.mixer.music.load(start_music)
         pygame.mixer.music.play(-1)  # Play the start music in a loop
 
